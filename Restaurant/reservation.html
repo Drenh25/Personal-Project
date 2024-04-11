@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Now</title>
+    <link rel="stylesheet" href="style/reservartion.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">
+            <a href="home.html">Royal Flavour</a>
+            
+        </div>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </div>    
+
+    <div class="banner">
+        <h2>REZERVONI TAVOLINEN TUAJ</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!--img-->
+            </div>
+
+            <div class="card-content">
+                <h3>REZERVONI</h3>
+                <form>
+                    <div class="form-row">
+                        <select name="days" id="">
+                            <!--selektoni diten-->
+                            <option value="day-select">Selektoni Diten</option>
+                            <option value="Te diellen">Te diellen</option>
+                            <option value="Te shtunen">Te shtunen</option>
+                            <option value="Te premten">Te premten</option>
+                            <option value="Te ejten">Te ejten</option>
+                            <option value="Te merkuren">Te merkuren</option>
+                            <option value="e marten">Te marten</option>
+                            <option value="Te henen">Te henen</option>
+                        </select>
+
+                        <!--selektoni oren-->
+                        <select name="hours">
+                            <option value="10">10:00</option>
+                            <option value="10">12:00</option>
+                            <option value="10">14:00</option>
+                            <option value="10">16:00</option>
+                            <option value="10">18:00</option>
+                            <option value="10">20:00</option>
+                            <option value="10">22:00</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="text" placeholder='Emri Plote'>
+                        <input type="text" placeholder='Numri i Telefonit'>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="number" placeholder='Sa persona' min="1">
+                        <input type="submit" value="Rezervoni Tavolinen">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
