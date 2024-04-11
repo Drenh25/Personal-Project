@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Dreni</a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portofolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Unë jam Dren Hoxha</h1>
+            <h3>Frontend dhe Backend Developer</h3>
+            <p>Jam student i shkolles British Gymnasium of Technology. Me saktesisht mesoj Front end dhe Backend. Me pelqen te merrem me Programmim kur kam kohe te lire. Jam shume i mire me punen ne ekipe.Jam i shoqerueshem i dhe i koncentrar ne punen qe e bej. Kam projekte te ndryshme te zhvilluara te cilat me kalimin e kohes do te ju shtohet dhe Backend</p>
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/dren-hoxha-8a54052a6/">Më punsoni</a>
+                <!-- <a href="#">Le te bisedojme</a> -->
+            </div>
+        </div>
+        <!-- <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+        </div> -->
+
+        <img src="dreni.png" alt="" class="img">
+
+    </section>
+    
+    <footer>
+        <div class="home-sci">
+            <a href="https://www.instagram.com/dreni_hoxhaa/"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/dren-hoxha-8a54052a6/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Drenii25"><i class='bx bxl-github'></i></a>
+        </div>
+
+    </footer>
+</body>
+</html>
